@@ -18,16 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-domain: batschz.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-url: https://batschz.github.io  # the base hostname and protocol for your site, e.g. http://example.com
-baseurl: /test-blog/      # place folder name if the site is served in a subfolder
-
 title: SIXT Tech
 email: tech@sixt.com
 description: >- # this means to ignore newlines until "baseurl:"
   Sixt is a highly profitable integrated mobility provider that aims to shape the future of mobility. Technology and revolutionary mobility concepts are key to our success. Our technical scope ranges from cloud and on-premise operations to agile software development. We rely on state-of-the-art frameworks and architectures and we strive for a long-term tech approach.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/test-blog" # the subpath of your site, e.g. /blog
+url: "https://batschz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: SIXTtech
 github_username:  Sixt
 
